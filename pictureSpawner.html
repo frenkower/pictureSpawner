@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pictureSpawner</title>
+	<link rel="stylesheet" href="pictureSpawner.css">
+	<script src="jQuerry.js"></script>
+	<script src="pictureSpawner.js"></script>
+</head>
+<body>
+	<input type="range"min = "1" max="100" value="10" class="tailLong"style="display: inline-block;"><input type="checkbox" checked name = "mode" class="endless" style="display: inline-block;"><input type="checkbox" class="randomColor" checked><input type="number" min="0" max="255" value="0" class="colorChoose red"><input type="number" min="0" max="255" value="103" class="colorChoose green"><input type="number" min="0" max="255" value="255" class="colorChoose blue">
+	<p class = "tracer_mode">tracer mode: disabled</p>
+	<p class="coordx">position by X:</p>
+	<p class="coordy">position by Y:</p>
+	<p class="color">rgb(0, 0, 0)</p>
+	<div class="area"></div>
+	<div class="clear_button" onclick="clear()">CLEAR</div>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
